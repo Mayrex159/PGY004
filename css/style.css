@@ -1,0 +1,86 @@
+/*ESTILOS DEL NAV PILLS*/
+.nav-link {
+    color: rgb(224, 155, 6);
+}
+
+.nav-link .fa {
+    transition: all 1s;
+
+}
+
+.nav-link:hover .fa {
+    transform: rotate(360deg);
+    color: gray;
+    font-size: 18px;
+}
+
+
+.nav-link:hover {
+    color: gray;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+}
+
+.col-sm-4 h4{
+    background-color: rgb(10, 10, 1);
+    color: rgb(195, 214, 25);
+    border-radius: 30px;
+    padding: 20px;
+    margin: 45px;
+}
+
+.col-sm-4 .fa{
+    width: 200px;
+    text-align: center;
+    box-sizing: border-box;   
+}
+
+.col-sm-4:hover .fa{
+    transform: skewY(-5deg);
+    margin-top: 40px;
+    border-top: 6px solid #CBBB40;
+    border-bottom: 6px solid white;
+    box-shadow: 0px 10px 40px -8px #222222;
+}
+
+.mb-3 .form-control{
+    width: 500px;
+    justify-content: center;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    box-shadow: 0px 10px 40px -8px blue;
+}
+
+.btn{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    box-shadow: 0px 10px 40px -8px blue;  
+}
+
+.alumnos{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    box-shadow: 0px 10px 40px -8px blue;  
+}
+
+.form-select{
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0px 10px 40px -8px rgb(142, 187, 20);
+    border-radius: 10px;
+}
+
+.perfil{
+    background-image: url(../img/lobo_fondo.jpg);
+}
+
+.color-izquierda{
+    background-color: #CBBB40;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
