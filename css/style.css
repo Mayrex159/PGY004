@@ -44,7 +44,7 @@
 }
 
 .mb-3 .form-control{
-    width: 500px;
+    width: 100%;
     justify-content: center;
     text-align: center;
     border-top: 2px solid black;
